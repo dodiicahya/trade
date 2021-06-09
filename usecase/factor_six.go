@@ -65,10 +65,3 @@ func FindFactorSix(s string) (int, error) {
 	}
 	return result, nil
 }
-
-func input(s string) string {
-	request := bufio.NewReader(os.Stdin)
-	text, _ := request.ReadString('\n')
-	text = strings.Replace(text, "\n", "", -1)
-	return text
-}
