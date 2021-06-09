@@ -1,5 +1,5 @@
-# go-trade
-this is simple golang implementation using simple REST API to calculate max difference from remote file
+# trade
+this is simple golang implementation using calculate max difference from remote file
 
 ## 1 installing dependencies
 ```
