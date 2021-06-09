@@ -45,6 +45,8 @@ go run main.go factor-six
 ```
 
 type number to find factor six
+![image](https://user-images.githubusercontent.com/22753477/121329888-cb8bee00-c93f-11eb-8115-9c68c9955b54.png)
+
 
 ```
 Enter text: 128
