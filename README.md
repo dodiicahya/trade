@@ -14,7 +14,7 @@ make test
 ## 3 build
 make build
 ./trade
-```
+
 
 ## How to run solver
 ### 1 calculate max profit
@@ -45,6 +45,7 @@ go run main.go factor-six
 ```
 
 type number to find factor six
+
 ```
 Enter text: 128
 ```
@@ -54,4 +55,4 @@ and the response console will be like this :
 {"mathched_factor_count":19}
 ```
 
-*note : on step 3 needed to refactor, it's the simplest way to find the matching factor. Need further refactor because submission time limit.
+*note : need to improve on step 3
