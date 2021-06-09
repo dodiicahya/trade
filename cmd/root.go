@@ -40,6 +40,13 @@ func Start() {
 				usecase.UniqueString(ctx)
 			},
 		},
+		{
+			Use:   "factor-six",
+			Short: "factor six solver",
+			Run: func(cmd *cobra.Command, args []string) {
+				usecase.FactorSixCount(ctx)
+			},
+		},
 	}
 
 	rootCmd.AddCommand(cmd...)
